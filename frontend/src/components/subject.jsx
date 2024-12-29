@@ -8,7 +8,7 @@ export const Subject= ()=>{
     let { subject } = useParams();
     
     useEffect(()=>{
-        fetch(`https://newsapi.org/v2/everything?q=${subject}&pageSize=3&apiKey=d13c430dd3a44a2eae93669d817bf181`)
+        fetch(`https://newsapi.org/v2/everything?q=${subject}&pageSize=3&apiKey=7da6be74f5124b30a05b8c4d615c36b4`)
         .then((res)=>{
             return res.json();
         }).then((result)=>{
