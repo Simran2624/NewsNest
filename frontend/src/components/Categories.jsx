@@ -17,7 +17,7 @@ export const Categories= ()=>{
     }, [])
 
     const searchedTopic= ()=>{
-        fetch(`https://newsapi.org/v2/everything?q=${topic}&pageSize=3&page=${pageno}&apiKey=d13c430dd3a44a2eae93669d817bf181`)
+        fetch(`https://newsapi.org/v2/everything?q=${topic}&pageSize=3&page=${pageno}&apiKey=7da6be74f5124b30a05b8c4d615c36b4`)
         .then((res)=>{
             return res.json();
         }).then((result)=>{
